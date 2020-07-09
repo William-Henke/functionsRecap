@@ -13,12 +13,12 @@ button.addEventListener('click', pokeCarousel1);
 let index1 = 0;
 let index2 = -1;
 
-if(index1 === 0 && index2 === -1){
-    document.getElementById('pokeButton').onclick = function() {showingPoke()};
-}
+// if(index1 === 0 && index2 === -1){
+//     document.getElementById('pokeButton').onclick = function() {showingPoke()};
+// }
 
 function pokeCarousel1() {
-    console.log('hello');
+    // console.log('hello');
 
     if(index1 > pokeArray.length -1) {
         index1 = 0;        
@@ -46,7 +46,7 @@ function pokeCarousel1() {
 }
 
 function pokeCarousel2() {
-    console.log('world');
+    // console.log('world');
 
     if(index2 > pokeArray.length -1) {
         index2 = 0;        
@@ -60,7 +60,7 @@ function pokeCarousel2() {
 }
 
 function showingPoke() {
-    console.log('I am working');
+    // console.log('I am working');
     document.getElementById('firstPokeName').style.display = "block";
     document.getElementById('firstPokePic').style.display = "block";
     document.getElementById('secondPokeName').style.display = "block";
