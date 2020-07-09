@@ -7,4 +7,23 @@ let pokeArray = [
   
   ];
 
-  
+let button = document.getElementById('pokeButton');
+button.addEventListener('click', pokeCarousel);
+
+function pokeCarousel() {
+    if() {
+        // function to make the array loop.
+    }
+
+    let pokeName1 = document.getElementById('firstPokeName');
+    pokeName1.innerHTML = 
+
+    let pokePic1 = document.getElementById('firstPokePic');
+    pokePic1.src = 
+
+    let pokeName2 = document.getElementById('secondPokeName');
+    pokeName2.innerHTML = 
+
+    let pokePic2 = document.getElementById('secondPokePic');
+    pokePic2.src =     
+}
