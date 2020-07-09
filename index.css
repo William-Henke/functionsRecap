@@ -1,0 +1,17 @@
+#pokeButton {
+    border: none;
+    color: white;
+    padding 50% 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 1%;
+    background-color: #555555;
+    border-radius: 5px;
+}
+
+#pokeButton:hover {
+    color: white;
+    background-color: lightgray;
+}
